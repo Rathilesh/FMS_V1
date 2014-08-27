@@ -816,14 +816,6 @@ else {
         });
         
         
-//        $('.scroll_anchor').click(function(){
-//             var id=$(this).attr('href');
-//       
-//         $(".help_box_section").hide();
-//         alert(id);
-//         $(id).show();
-//         return false;
-//        });
         
         
          $('#b0-link').click(function(){
