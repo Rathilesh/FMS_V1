@@ -1,5 +1,8 @@
 <?php
 //commented line
+
+
+// After create respository i added some cammand line
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
