@@ -14,19 +14,19 @@
 	Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap'); //Add bootstrap CSS path
     //Bootstrap is a CSS Framework that used to be creating responsive web Design
         return array(
-            'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-            'name'=>'eHorizon FMS', //Application Name 
-            'defaultController' => 'site/login', //Set Default Controller for application
-            // preloading 'log' component
-            'preload'=>array('log'),
-            // autoloading model and component classes
-            'import'=>array(
-                      'application.models.*',
-                      'application.components.*',
-                      'application.classes.*',
-                      'ext.giix-components.*', 
-
-                           ),
+                       'basePath'          =>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
+                       'name'              =>'eHorizon FMS', //Application Name 
+                       'defaultController' => 'site/login', //Set Default Controller for application
+                       // preloading 'log' component
+                       'preload'           =>array('log'),
+                       // autoloading model and component classes
+                       'import'            =>array(
+                       'application.models.*',
+                       'application.components.*',
+                       'application.classes.*',
+                       'ext.giix-components.*', 
+                           
+                                                  ),
             //creating alias here
             'aliases' => array  (
                                 ),
@@ -36,12 +36,12 @@
 		       // uncomment the following to enable the Gii tool
 			   // Gii is the graphical interphase for creating CRUD Files 
                'gii'=>array(
-                            'class'=>'system.gii.GiiModule',
-                            'password'=>'letmein',          //set password for gii login
+                            'class'          =>'system.gii.GiiModule',
+                            'password'       =>'letmein',          //set password for gii login
                             'generatorPaths' => array   (
-                                                        'ext.phpextjs'  // load phpextjs extension  //currently not using
+                            'ext.phpextjs'  // load phpextjs extension  //currently not using
                                                         ),
-                            'ipFilters'=>array($_SERVER['REMOTE_ADDR']), // Allowing ip address for Gii Login
+                            'ipFilters'      =>array($_SERVER['REMOTE_ADDR']), // Allowing ip address for Gii Login
                             ),
                             ),
             // application components
