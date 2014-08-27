@@ -1,0 +1,131 @@
+/* 
+    Document   : bank_style
+    Created on : Jan 28, 2014, 1:51:19 PM
+    Author     : NYNI
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.input-append .add-on {
+    background-color: #DFDCDC !important;
+    height: 23px !important;
+    padding: 0 !important;
+}
+ .detailseditbtn
+    {
+      margin-left: 270px;  
+      cursor:pointer;
+    }
+    .detailseditbtn1
+    {
+      cursor:pointer;
+      margin-left: 305px;  
+    }
+    #MBNAME
+    {
+    font-size:14px;
+   color: #555555; 
+    }
+    .moreinfo
+    {
+text-align: right !important;
+font-style: italic;
+cursor: pointer;
+float: right;
+    }
+    .popup
+    {
+    margin-left: 5px;
+    }
+  .success_blue
+  {
+  width: 438px !important;
+  min-width:0px !important;
+  }
+/* .margintxt
+ {
+  margin-right: 30px;
+ }*/
+#POPNAME
+{
+     margin-right: 30px; 
+}
+ .margintxtsn
+ {
+     
+ /*margin-left: 30px;*/
+ width: 120px;
+ /*margin-right: 120px;*/   
+ }
+ 
+ tr.spaceUnder > td
+ {
+ 
+  padding-bottom: .5em;
+ }  
+   tr.spaceUnder > td.margin1
+ {
+  text-align:left !important;
+  padding-left: 7px;
+  padding-right: 20px;
+
+ }  
+   .marginwef
+ {
+  
+ margin-right: 100px 
+ 
+
+ }  
+.marginwet
+ {
+ margin-right: 100px 
+
+ }  
+  
+  tr#three > td.margin1
+ {
+  text-align:left !important;
+  padding-left: 7px;
+ }  
+  tr.spaceUnder  > td.marginsname
+ {
+  text-align:left !important;
+  width:200px !important;
+  padding-left: 20px;
+ }
+ .wefwet
+ {
+  margin-right:50px;   
+ }
+ .WEF
+ {
+   margin-right:115px !important;
+ }
+ .WET
+ {
+   margin-left: -140px!important;
+ }
+ #three
+{
+     
+background-color:#F2EFEF;
+}
+#input {
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+    background-color: white;
+    background-color: -moz-field;
+    border: 1px solid darkgray;
+    box-shadow: 1px 1px 1px 0 lightgray inset;  
+    font: -moz-field;
+    font: -webkit-small-control;
+    margin-top: 5px;
+    padding: 2px 3px;
+    height:20px;
+    width: 230px;    
+}
+form { padding-bottom: 10px;  margin-bottom:0px;}

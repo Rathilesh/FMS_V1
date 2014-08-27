@@ -1,0 +1,85 @@
+/*
+	Todd Motto Labs
+	URL: www.toddmotto.com
+*/
+
+/*------------------------------------*\
+   Clickable Dropdown
+\*------------------------------------*/
+
+.click-nav {
+	/*margin:100px auto;*/
+	width: auto;
+}
+.click-nav ul {
+	font-weight:900;
+    margin: 0px; padding: 0px;
+}
+.click-nav ul li {
+	position:relative;
+	list-style:none;
+	cursor:pointer;
+    margin: 0px; padding: 0px;
+}
+.click-nav ul li ul {
+    position: absolute;
+    left: -91px;
+    /*right: 0;*/
+    margin: 0px;
+    padding: 0px;
+    width: 142px;
+    margin-top: 26px;
+}
+.click-nav ul .clicker {
+	/*background:#2284B5;*/
+	/*color:#FFF;*/
+}
+.click-nav ul .clicker:hover,
+.click-nav ul .active {
+	/*background:#196F9A;*/
+}
+#user_icon {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+}
+.click-nav img {
+	position:absolute;
+	top:9px;
+	left:12px;
+}
+#user_logo_link {
+    transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    display: block;
+    /*padding: 8px 10px 8px 40px;*/
+    /*background: #FFF;*/
+    color: #333;
+    text-decoration: none;
+    width: 38px;
+    float: left;
+    height: 19px;
+}
+.click-nav ul li ul a {
+	transition:background-color 0.2s ease-in-out;
+	-webkit-transition:background-color 0.2s ease-in-out;
+	-moz-transition:background-color 0.2s ease-in-out;
+	display:block;
+	padding:8px 10px 8px 40px;
+	background:#FFF;
+	color:#333;
+	text-decoration:none;
+}
+.click-nav ul li ul li a:hover {
+	background:#F2F2F2;
+}
+/* Fallbacks */
+.click-nav .no-js ul {
+	display:none;
+}
+.click-nav .no-js:hover ul {
+	display:block;
+}

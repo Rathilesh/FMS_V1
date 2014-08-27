@@ -1,0 +1,91 @@
+/* 
+    Document   : red_theme
+    Created on : 1 Jan, 2014, 4:48:24 PM
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#menu-wrapper {
+/*    overflow: hidden;
+    height: 56px;*/
+    background: #C00A0A; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FDEFEF', endColorstr='#C00A0A'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#FDEFEF), to(#C00A0A)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #FDEFEF,  #C00A0A); /* for firefox 3.6+ */
+/*    width: 98%;
+    margin:0 auto;*/
+}
+#bottom_menu_bar { 
+/*    width:  98%;
+    margin: 0 auto;*/
+    /*border-radius: 8px;*/
+    height: 23px;
+    /*background-color: rgb(226, 225, 225);*/
+     background-color: rgb(255, 229, 229);
+ }
+ .breadcrumb_left-small {
+    margin: 0px; padding: 0px; line-height:0px !important; padding-left: 4px; background-color: rgb(255, 229, 229);
+}
+#table_bottom_bg { background-color: #D45555 !important;}
+
+/*    tabs style start       */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a { background-color:#CA2F2F !important}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active :after {  
+     content: '' !important;
+    display: block !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 100% !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-color: transparent transparent transparent #CA2F2F !important;
+    border-style: solid !important;
+    z-index: 100 !important;
+    border-width: 17px !important;
+}
+.ui-tabs .ui-tabs-nav li { padding: 0px !important}
+.ui-tabs .ui-tabs-nav li:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a { color: white !important; background-color:#EFBBBB !important; border: none !important;}
+.ui-tabs-nav li :after {
+                content: '' !important;
+                display: block !important;
+                position: absolute !important;
+                top: 0px !important;
+                left: 100% !important;
+                width: 0 !important;
+                height: 0 !important;
+                border-color: transparent transparent transparent #EFBBBB !important;
+                border-style: solid !important;
+                z-index: 100 !important;
+                border-width: 17px !important;
+}
+
+.ui-tabs-nav  .last_li :after {
+    border-width: 0px !important;
+} 
+.ui-tabs .ui-tabs-nav  .ui-state-default { border-radius:none !important; background-color:#EFBBBB !important;}
+.ui-tabs-active a {background-color:#EFBBBB !important; border-radius:none !important}
+.ui-tabs .ui-tabs-nav .ui-state-active {
+    background-color:#CA2F2F !important;
+    border:none!important;
+}
+/*    tabs style end       */
+thead th {
+ background: -moz-linear-gradient(#F5D4D4, #F03B3B);
+background: -webkit-gradient(linear, left top, left bottom, from(#F5D4D4), to(#F03B3B));
+background: -webkit-linear-gradient(#F5D4D4, #F03B3B);
+background: -o-linear-gradient(#F5D4D4, #F03B3B);
+background: -ms-linear-gradient(#F5D4D4, #F03B3B);
+background: linear-gradient(#F5D4D4, #F03B3B);
+-webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+-moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+color: #000000; font-weight: bold;
+height:27px;
+font-size: 13px;
+}

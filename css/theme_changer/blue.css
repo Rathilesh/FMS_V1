@@ -1,0 +1,167 @@
+/* 
+    Document   : default
+    Created on : 1 Jan, 2014, 4:50:01 PM
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#menu-wrapper {
+/*    overflow: hidden;
+    height: 56px;*/
+    background: #1692CC; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#1692CC'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#1692CC)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #f5f5f5,  #1692CC); /* for firefox 3.6+ */
+/*    width: 98%;
+    margin:0 auto;*/
+}
+#bottom_menu_bar { 
+/*    width:  98%;
+    margin: 0 auto;*/
+     /*border-radius: 8px;*/
+     height: 23px;
+     /*background-color: rgb(226, 225, 225);*/
+     background-color: #ffffff;
+ }
+ .breadcrumb_left-small {
+    margin: 0px; padding: 0px; line-height:0px !important; padding-left: 4px;
+}
+#table_bottom_bg { background-color: #6BA9C7;}
+/*    tabs style start       */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a { background-color:#3FA5D4 !important}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active :after {  
+     content: '' !important;
+    display: block !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 100% !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-color: transparent transparent transparent #3FA5D4 !important;
+    border-style: solid !important;
+    z-index: 100 !important;
+    border-width: 17px !important;
+}
+.ui-tabs .ui-tabs-nav li { padding: 0px !important}
+.ui-tabs .ui-tabs-nav li:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a { color: white !important; background-color:#A2D0E6 !important; border: none !important;}
+.ui-tabs-nav li :after {
+                content: '' !important;
+                display: block !important;
+                position: absolute !important;
+                top: 0px !important;
+                left: 100% !important;
+                width: 0 !important;
+                height: 0 !important;
+                border-color: transparent transparent transparent #A2D0E6 !important;
+                border-style: solid !important;
+                z-index: 100 !important;
+                border-width: 17px !important;
+                border-left: 1px solid rgb(55, 128, 156) !important;
+}
+
+.ui-tabs-nav  .last_li :after {
+    border-width: 0px !important;
+} 
+.ui-tabs .ui-tabs-nav  .ui-state-default { border-radius:none !important; background-color:#A2D0E6 !important;}
+.ui-tabs-active a {background-color:#A2D0E6 !important; border-radius:none !important}
+.ui-tabs .ui-tabs-nav .ui-state-active {
+    background-color:#3FA5D4 !important;
+    border:none!important;
+}
+.ui-tabs .tabsbox .ui-tabs-nav li.ui-tabs-active :after {
+        left: -32% !important;
+        border-color: transparent #3FA5D4 transparent transparent !important;
+    }
+/*    tabs style end       */
+
+thead th {
+    background: -moz-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#B4B6B8)) !important;
+    background: -webkit-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -o-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -ms-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: linear-gradient(#E0E0E0, #B4B6B8) !important;
+    -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    color: #000000; font-weight: bold;
+    height:27px;
+    font-size: 13px;
+
+}
+div.Help_Box_Style1 { 
+position:absolute;
+top:47px;
+/*left:-10%;*/
+width: 250px;
+height: 450px;
+/*padding: 10px 30px 0px 30px;*/
+padding: 6px;
+border: 1px solid rgba(0,0,0,.05);
+box-shadow: 0px 0px 0px 10px rgba(180, 180, 180, 0.55);
+background: #FFFFFF;
+z-index: 10;
+display: none;
+z-index: 100000;
+right: 275px;
+}
+div.Help_Box_Style2 { 
+position:absolute;
+top:47px;
+/*left:-10%;*/
+width: 250px;
+height: 450px;
+/*padding: 10px 30px 0px 30px;*/
+padding: 6px;
+border: 1px solid rgba(0,0,0,.05);
+box-shadow: 0px 0px 0px 10px rgba(180, 180, 180, 0.55);
+background: #FFFFFF;
+z-index: 10;
+display: none;
+z-index: 100000;
+right: 0px;
+}
+body::-webkit-scrollbar {
+    width: 10px !important;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #5BB0D8 !important;
+  outline: 1px solid slategrey !important;
+}
+.step {
+text-align: left;
+background: -moz-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#E0E0E0), to(#B4B6B8)) !important;
+    background: -webkit-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -o-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: -ms-linear-gradient(#E0E0E0, #B4B6B8) !important;
+    background: linear-gradient(#E0E0E0, #B4B6B8) !important;
+color: black;
+font-size: 22px;
+text-shadow: 1px 1px 1px #fff;
+font-weight: bold;
+
+width: auto;
+padding: 5px 0px 5px 10px;
+padding: 0px 0px 0px 17px;
+margin: 0px 0px;
+border-bottom: 1px solid #fff;
+border-top: 1px solid #d9d9d9;
+background: -webkit-gradient(linear, left top, left bottom, from(#D4F5E5), to(#27B46B));
+background: -webkit-linear-gradient(#D4F5E5, #27B46B);
+border-radius: 5px;
+border-bottom-left-radius: 0px;
+border-bottom-right-radius: 0px;
+
+}

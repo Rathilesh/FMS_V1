@@ -1,0 +1,197 @@
+/* 
+    Document   : basicdef_style
+    Created on : 6 Feb, 2014, 4:30:51 PM
+    Author     : Arjun
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+ .name
+    {
+        width:237px;
+        padding:0 0 0 0px;
+    }
+    
+    .datecolumns
+    {
+        width:98px;
+    }
+    .description
+    {
+        width:624px;
+        padding:0 0 0 0px;
+    }
+    .detailseditbtn
+    {
+        height: 15px;
+        width: 15px;
+        padding: 21px 82px 0 10px;
+        cursor: pointer;
+        border: none !important;
+        border-radius: 0px !important;
+        float: right;
+        margin: -19px;
+    }
+    .detailseditbtn1
+    {
+        height: 15px;
+        width: 15px;
+        padding: 21px 195px 0 10px;
+        cursor: pointer;
+        border: none !important;
+        border-radius: 0px !important;
+        float: right;
+        margin: -19px;
+    }
+     .modal.fade.in
+    {
+        top:34%;
+    }
+    .modalstyle
+    {
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 6px;         
+    }
+    .modal
+    {   
+        left: 58% !important;
+        width: 300px !important;
+    }
+    .modal-footer 
+    {
+        padding: 6px 15px 7px !important;
+    }
+
+    .input_description
+    {
+        width:585px;
+    }
+    .datecolumn
+    {
+        width:100px;
+    }
+/*    .policy
+    {
+        width:132px;
+        padding:0 10px 0 0px;
+    }*/
+    
+    .editbtn
+    {
+        height:10px;
+        padding:0 5px 0 4px;
+        cursor:pointer;
+        border: none !important;
+        border-radius:0px !important;
+    }
+    
+    .grid_details {
+        width: 400px;
+        border: 1px solid #9C9A9A;
+        border-radius: 10px;
+        padding: 6px;
+        margin:10px auto;
+        background-color: white;
+        box-shadow: 0px 0px 22px 3px #c4c4c4;
+    }
+    .details_td
+    {
+        width:750px !important;
+        border:1px solid #e8e8e8 !important;
+        background-color: rgb(238, 236, 236);
+         
+    }
+    .grid_details td
+    {
+        text-align: left;
+       
+    }
+    .drpdown
+    {
+/*        height:13px;*/
+        width:114px;
+    }
+    .btn_save
+    {
+        padding-bottom: 5px;
+	    padding-right: 10px;
+	    padding-top: 5px;
+	    text-align: right !important;
+    }
+    .editbtn_save
+    {
+       text-align: right !important;
+       padding:10px 0px 10px 10px !important;
+    }
+    .text-align-center
+    {
+        text-align: center !important;
+    }
+    .clonerow
+    {
+        z-index:10;
+        border:none !important;
+        cursor:pointer;
+/*        margin-top: -29px;
+        margin-right: 2px;*/
+    }
+    .detailclonerow
+    {
+        z-index:10;
+        border:none !important;
+        cursor:pointer;
+        padding: 0 0 0 10px;
+    }
+    .default
+    {
+        width:50px;
+    }
+
+    .fixedHeader 
+    {
+        position: relative;
+        display: block;
+    }
+
+    .scrollContent
+    {
+        display: block;
+        overflow:auto;
+        width: 872px;
+        height:500px;
+       
+
+    }
+    .tbl_btn
+    {
+        width:875px;
+        height: 38px !important;
+        padding-top: 5px;
+        border: 1px solid #D3D0D0;
+        border-radius: 10px;
+        border-top:none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding-right: 15px;
+
+box-shadow:0px 6px 15px 0px #c4c4c4;
+
+    }
+    .insertedchild
+    {
+        
+    }
+    
+    
+    .grid_insert_table 
+    {
+        border-bottom:none !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        padding-bottom: 0px !important;
+        box-shadow: 0px -4px 8px 1px #c4c4c4 !important;
+    }

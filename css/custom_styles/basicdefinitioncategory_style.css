@@ -1,0 +1,114 @@
+/* 
+    Document   : basicdefinitioncategory_style
+    Created on : Jan 28, 2014, 1:53:00 PM
+    Author     : Anaswara
+    Description:
+    Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+ .text_box
+    {
+/*        height:25px!important;*/
+      width:230px !important;
+    }
+ .no_records
+    {
+/*        height:25px!important;*/
+        width:86px!important;
+        text-align:right!important;
+    }
+ .DT{ width:232px; } 
+ .Desc{ width:225px; }
+ .NRecords
+ { 
+     width:86px;
+/*     text-align: center; */
+ }
+ .amend { padding-right: 25px;width:100px;}
+ .display{padding-right: 27px;width:100px;}
+ .compulsary{padding-right: 16px;width:100px;}
+ .checkbox_width
+    {
+        width:20px!important;
+        background-color: rgb(238,236,236)!important;
+    }
+    
+ .grid_insert_table thead th 
+    {
+        padding-right: 10px !important;
+    }
+    
+/* .grid_insert_table { width : 999px !important;
+                     border: 1px solid #D3D0D0;
+    border-radius: 10px; float:left;
+    padding: 6px; padding-bottom: 16px;
+    box-shadow: 0px 0px 22px 3px #c4c4c4;}   */
+    
+ 
+ .check_box_border
+    {
+        border:10px aliceblue ;
+        width:100px;
+        border-bottom:2px solid #e8e8e8 !important;
+        border-right:2px solid #e8e8e8!important;
+    }
+    
+ .first_checkbox_width
+    {
+        width:20px!important;
+    }
+ 
+ .fixed tr:last-child {
+            display: table;
+            position: fixed;
+ }
+ 
+ .tbl_btn
+    {
+        width:960px;
+        padding-top: 2px;
+        border: 1px solid #D3D0D0;
+        border-radius: 10px;
+        border-top:none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding-right: 15px;
+        box-shadow:0px 6px 15px 0px #c4c4c4;
+
+    }
+
+.fixedHeader 
+    {
+        position: relative;
+        display: block;
+    }
+
+.scrollContent
+    {
+        display: block;
+        overflow:auto;
+/*        width: 815px;*/
+        height:400px;
+       
+
+    }
+   
+.grid_insert_table 
+    {   
+        width : 960px !important;
+        border-bottom:none !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        padding-bottom: 0px !important;
+        box-shadow: 0px -4px 8px 1px #c4c4c4 !important;
+       
+    }
+.btn_save 
+    {
+        text-align: right !important;border-bottom-left-radius: 10px;
+        padding: 5px;
+    }

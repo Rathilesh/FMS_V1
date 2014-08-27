@@ -1,0 +1,180 @@
+/* 
+    Document   : custom_style_policy
+    Created on : Jan 27, 2014, 6:29:48 PM
+    Author     : Archana Suresh
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+    .name
+    {
+        width:237px;
+        padding:0 0 0 10px;
+    }
+    .datecolumns
+    {
+        width:104px;
+        padding-left: 11PX !IMPORTANT;
+    }
+    .wetdate
+    {
+        width:104px;
+        padding-left: 11PX !IMPORTANT;
+    }
+    .description
+    {
+        width:240px;
+        padding:0 0 0 10px;
+    }
+    .input_description
+    {
+        width:250px;
+    }
+    .datecolumn
+    {
+        width:100px;        
+    }
+    .policy
+    {
+        width:167px;
+        padding:0 10px 0 0px;
+    }
+    .detailseditbtn
+    {
+        height: 13px;
+        width: 23px;
+        padding: 0 6px 0 4px;
+        cursor: pointer;
+        border: none !important;
+        border-radius: 0px !important;
+        float: right;
+        margin: -12px;
+    }
+    .editbtn
+    {                
+        height: 10px;
+        padding: 0 0px 0 4px;
+        cursor: pointer;
+        border: none !important;
+        border-radius: 0px !important;
+        float: left;
+        margin-top: 1px;     
+    }
+    
+    .grid_details {
+        width: auto;
+        border: 1px solid #9C9A9A;
+        border-radius: 10px;
+        padding: 6px;
+        margin:10px auto;
+        background-color: white;
+        box-shadow: 0px 0px 22px 3px #c4c4c4;
+    }
+    .details_td
+    {
+        border:1px solid #e8e8e8 !important;
+        background-color: rgb(238, 236, 236);
+         
+    }
+    .grid_details td
+    {
+        text-align: left;
+       
+    }
+    .drpdown
+    {
+        width:114px;
+    }
+    .btn_save
+    {
+        text-align: right !important;
+        padding-left: 6px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 21px;
+    }
+    .editbtn_save
+    {
+       text-align: right !important;
+       padding: 10px 30px 10px 10px !important
+    }
+    .defaultbtn
+    {
+        padding: 0 5px 0 23px !important;
+        width: 45px;
+    }
+    
+    .detailclonerow
+    {
+        z-index:10;
+        border:none !important;
+        cursor:pointer;
+        padding: 2px 5px 0 18px;
+    }
+    .default
+    {
+        width:73px;
+    }
+
+    .fixedHeader 
+    {
+        position: relative;
+        display: block;
+    }
+
+    .scrollContent
+    {
+        display: block;
+        overflow: auto;
+        width: 853px;
+        height: 405px !important;
+        padding-bottom: 7px;
+        padding-top: 6px;
+        padding-left: 5px;
+    }
+    .tbl_btn
+    {
+        width:857px;
+        border: 1px solid #D3D0D0;
+        border-radius: 10px;
+        border-top:none;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        box-shadow:0px 6px 15px 0px #c4c4c4;
+    }
+    .grid_insert_table 
+    {
+        border-bottom:none !important;
+        border-bottom-left-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
+        padding-bottom: 0px !important;
+        box-shadow: 0px -4px 8px 1px #c4c4c4 !important;
+       
+    }
+    .ui-helper-hidden-accessible { height: 0px !important}
+    .ui-menu { width: auto !important; }
+   
+    .modal.fade.in
+    {
+        top:34%;
+    }
+    .modalstyle
+    {
+        border-bottom: 1px solid #e8e8e8;
+        padding-bottom: 6px;         
+    }
+    .clonerow
+    {
+        padding: 5px 5px !important;
+    }
+    .modal
+    {   
+        left: 58% !important;
+        width: 300px !important;
+    }
+    .modal-footer 
+    {
+        padding: 6px 15px 7px !important;
+    }
+
+

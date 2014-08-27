@@ -1,0 +1,231 @@
+/* 
+    Document   : red_theme
+    Created on : 1 Jan, 2014, 4:48:24 PM
+    Author     : admin
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*root { 
+    display: block;
+}*/
+
+#menu-wrapper {
+/*    overflow: hidden;
+    height: 56px;*/
+    background: #ACADAD; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#E9EEEE', endColorstr='#BDBDBD'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(#E9EEEE), to(#BDBDBD)); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  #E9EEEE,  #BDBDBD); /* for firefox 3.6+ */
+/*    width: 98%;
+    margin:0 auto;*/
+}
+#bottom_menu_bar { 
+/*    width:  98%;
+     margin: 0 auto;*/
+     /*border-radius: 8px;*/
+     height: 23px;
+     /*background-color: rgb(226, 225, 225);*/
+     background-color: rgb(202, 209, 209);
+ }
+ .breadcrumb_left-small {
+    margin: 0px; padding: 0px; line-height:0px !important; padding-left: 4px; background-color: rgb(202, 209, 209);
+}
+#table_bottom_bg { background-color: #E0E0E0 !important;}
+/*    tabs style start       */
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active {
+    background-color: red !important;
+}
+/*.ui-tabs .ui-tabs-nav .ui-state-active {
+    background-color: red !important;
+}*/
+.ui-tabs .ui-tabs-nav li.ui-tabs-active a { 
+     background: -moz-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#C4C4C4))!important;
+    background: -webkit-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -o-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -ms-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: linear-gradient(#ECECEC, #C4C4C4)!important;
+
+}
+.ui-tabs .ui-tabs-nav li.ui-tabs-active :after {  
+     content: '' !important;
+    display: block !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 100% !important;
+    width: 0 !important;
+    height: 0 !important;
+    border-color: transparent transparent transparent #AFB3B1 !important;
+    border-style: solid !important;
+    z-index: 100 !important;
+    border-width: 17px !important;
+}
+
+.ui-tabs .ui-tabs-nav li { padding: 0px !important}
+.ui-tabs .ui-tabs-nav li:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a:hover {border: none !important}
+.ui-tabs .ui-tabs-nav li a { color: black !important; border: none !important;}
+.ui-tabs-nav li :after {
+                content: '' !important;
+                display: block !important;
+                position: absolute !important;
+                top: 0px !important;
+                left: 100% !important;
+                width: 0 !important;
+                height: 0 !important;
+                border-color: transparent transparent transparent #00D87B !important;
+                border-style: solid !important;
+                z-index: 100 !important;
+                border-width: 17px !important;
+                border-left: 1px solid rgb(55, 128, 156) !important;
+}
+
+.ui-tabs-nav  .last_li :after {
+    border-width: 0px !important;
+} 
+.ui-tabs .ui-tabs-nav  .ui-state-default { border-radius:none !important; background-color:#00D87B !important;}
+.ui-tabs-active a {background-color:#00D87B !important; border-radius:none !important}
+.ui-tabs .ui-tabs-nav .ui-state-active {
+    background-color:#269D6A !important;
+    border:none!important;
+}
+
+
+.ui-tabs .ui-tabs-nav  .ui-state-default 
+{
+    border-radius:5px !important; 
+    /*background: -webkit-linear-gradient(#21352C, #2F7C5B);*/
+    background: -moz-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#C4C4C4))!important;
+    background: -webkit-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -o-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: -ms-linear-gradient(#ECECEC, #C4C4C4)!important;
+    background: linear-gradient(#ECECEC, #C4C4C4)!important;
+    font-weight:bold !important;
+    
+    /*background-color:#305A48 !important;*/
+}
+.ui-tabs .ui-tabs-nav  .ui-state-default:hover
+{
+    border-radius:5px !important; 
+    /*background: -webkit-linear-gradient(#21352C, #2F7C5B);*/
+    background: -moz-linear-gradient(#Effff, #C4ff4)!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECffC), to(#C4C4C4))!important;
+    background: -webkit-linear-gradient(#ECEffC, #C4Cff4)!important;
+    background: -o-linear-gradient(#ECrCEC, #C4C4C4)!important;
+    background: -ms-linear-gradient(#EffCEC, #C4C4C4)!important;
+    background: linear-gradient(#ECfffC, #C4C4C4)!important;
+    font-weight:bold !important;
+    
+    /*background-color:#305A48 !important;*/
+}
+
+
+.ui-tabs .ui-tabs-nav .ui-state-default li a :hover{
+    border-radius:5px !important; 
+    /*background: -webkit-linear-gradient(#21352C, #2F7C5B);*/
+    background: -moz-linear-gradient(#Effff, #C4ff4)!important;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECffC), to(#C4C4C4))!important;
+    background: -webkit-linear-gradient(#ECEffC, #C4Cff4)!important;
+    background: -o-linear-gradient(#ECrCEC, #C4C4C4)!important;
+    background: -ms-linear-gradient(#EffCEC, #C4C4C4)!important;
+    background: linear-gradient(#ECfffC, #C4C4C4)!important;
+    font-weight:bold !important;
+    
+    
+}
+
+
+
+.ui-tabs .tabsbox .ui-tabs-nav li.ui-tabs-active :after {
+        left: -32% !important;
+        border-color: transparent #ABABAB transparent transparent !important;
+    }
+
+/*    tabs style end       */
+thead th {
+/*    background: -moz-linear-gradient(#a7c8f5, #1692CC);
+    background: -webkit-gradient(linear, left top, left bottom, from(#a7c8f5), to(#1692CC));
+    background: -webkit-linear-gradient(#a7c8f5, #1692CC);
+    background: -o-linear-gradient(#a7c8f5, #1692CC);
+    background: -ms-linear-gradient(#a7c8f5, #1692CC);
+    background: linear-gradient(#a7c8f5, #1692CC);
+    -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    color: #ffffff; font-weight: bold;*/
+ background: -moz-linear-gradient(#ECECEC, #C4C4C4);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#C4C4C4));
+    background: -webkit-linear-gradient(#ECECEC, #C4C4C4);
+    background: -o-linear-gradient(#ECECEC, #C4C4C4);
+    background: -ms-linear-gradient(#ECECEC, #C4C4C4);
+    background: linear-gradient(#ECECEC, #C4C4C4);
+    -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    -moz-box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
+    color: rgb(61, 52, 52); font-weight: bold;
+    height:27px;
+    font-size: 13px;
+}
+div.Help_Box_Style1 { 
+position:absolute;
+top:47px;
+/*left:-10%;*/
+width: 250px;
+height: 450px;
+/*padding: 10px 30px 0px 30px;*/
+padding: 6px;
+border: 1px solid rgba(0,0,0,.05);
+box-shadow: 0px 0px 0px 10px rgba(180, 180, 180, 0.55);
+background: #FFFFFF;
+z-index: 10;
+display: none;
+z-index: 100000;
+right: 275px;
+}
+div.Help_Box_Style2 { 
+position:absolute;
+top:47px;
+/*left:-10%;*/
+width: 250px;
+height: 450px;
+/*padding: 10px 30px 0px 30px;*/
+padding: 6px;
+border: 1px solid rgba(0,0,0,.05);
+box-shadow: 0px 0px 0px 10px rgba(180, 180, 180, 0.55);
+background: #FFFFFF;
+z-index: 10;
+display: none;
+z-index: 100000;
+right: 0px;
+}
+body::-webkit-scrollbar {
+    width: 10px !important;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3) !important;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: black !important;
+  outline: 1px solid slategrey !important;
+}
+.step {
+	background: -moz-linear-gradient(#ECECEC, #C4C4C4);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ECECEC), to(#C4C4C4));
+    background: -webkit-linear-gradient(#ECECEC, #C4C4C4);
+    background: -o-linear-gradient(#ECECEC, #C4C4C4);
+    background: -ms-linear-gradient(#ECECEC, #C4C4C4);
+    background: linear-gradient(#ECECEC, #C4C4C4);
+    border-bottom: 1px solid #FFFFFF;
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid #D9D9D9;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 0 17px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    width: auto;
+}

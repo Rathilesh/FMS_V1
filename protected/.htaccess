@@ -1,0 +1,4 @@
+
+<FilesMatch "event.humanDAte.json.php">
+Allow from all
+</FilesMatch> 

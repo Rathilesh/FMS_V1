@@ -1,0 +1,72 @@
+fieldset.sectionwrap{ /*fieldset that wraps around each form "page" */
+border-width:0;
+padding:0px;
+}
+
+legend{ /*title shown at top of each form page */
+font:bold 16px Arial;
+color: darkred;
+}
+
+div.stepsguide{ /*div that contains all the "steps" text located at top of form */
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+div.stepsguide .step{ /*div that wraps around each "steps" text */
+    width: 107px;
+    font: bold 18px Tahoma;
+    float: left;
+    color: white;
+    border: 1px solid #D1D1D1;
+    padding: 0px;
+    /*box-shadow: 0px 0px 10px black;*/
+    /*border-radius: 50%;*/
+    text-align: center;
+    /*background-color: rgb(37, 156, 14);*/
+    background-color: rgb(14, 88, 156);
+     margin-left: 1px;
+}
+
+div.stepsguide .disabledstep{ /*div that wraps around each "steps" text */
+    color: #DADADA;
+    /*border: 1px solid #24C544;*/
+    border: 1px solid #E0E0E0;
+    padding: 0px;
+    /*border-radius: 50%;*/
+    text-align: center;
+    /*background-color: rgb(71, 190, 48);*/
+    background-color: rgb(135, 175, 190);
+}
+
+div.stepsguide .step .smalltext{ /*small footer text inside "steps" text */
+font-size: 13px;
+font-weight: normal;
+}
+
+div.formpaginate{ /* CSS for pagination DIV container */
+width: 40%;
+overflow:hidden;
+font-weight:bold;
+text-align:center;
+    margin:  0 auto;
+/*margin-top:1em;*/
+}
+
+div.formpaginate .prev, div.formpaginate .next{ /*CSS for "prev" and "next" SPAN elements within paginate container */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding: 6px 14px;
+    background: green;
+    color: white;
+    cursor: hand;
+    cursor: pointer;
+}
+.tot_out_class { width:98% !important;  height: 270px !important; }
